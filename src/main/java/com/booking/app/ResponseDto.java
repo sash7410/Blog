@@ -12,6 +12,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ResponseDto {
+    //test branch
     @JsonInclude(value = JsonInclude.Include.NON_EMPTY, content = JsonInclude.Include.NON_NULL)
     private Object success;
     @JsonInclude(value = JsonInclude.Include.NON_EMPTY, content = JsonInclude.Include.NON_NULL)
