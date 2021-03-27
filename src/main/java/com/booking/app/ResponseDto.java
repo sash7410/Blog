@@ -17,4 +17,5 @@ public class ResponseDto {
     private Object success;
     @JsonInclude(value = JsonInclude.Include.NON_EMPTY, content = JsonInclude.Include.NON_NULL)
     private ExceptionResponse error;
+    //test2 using cmd
 }
